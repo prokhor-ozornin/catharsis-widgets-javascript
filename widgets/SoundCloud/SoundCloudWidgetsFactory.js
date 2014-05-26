@@ -4,6 +4,15 @@
   {
   };
 
+  SoundCloudWidgetsFactory.prototype.ProfileIconColor = Object.freeze(
+  {
+    BLACK_WHITE : "black_white",
+    ORANGE_TRANSPARENT : "orange_transparent",
+    ORANGE_WHITE : "orange_white",
+    WHITE_ORANGE : "white_orange",
+    WHITE_TRANSPARENT : "white_transparent"
+  });
+
   SoundCloudWidgetsFactory.prototype.ProfileIconSize = Object.freeze(
   {
     SIZE_16 : 16,
