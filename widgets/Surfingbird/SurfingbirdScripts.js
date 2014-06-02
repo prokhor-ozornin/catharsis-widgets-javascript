@@ -1,9 +1,8 @@
 (function(scripts)
 {
-  scripts.Surfingbird = function()
+  scripts.surfingbird = function()
   {
     window.document.write(this.javascriptLink("http://surfingbird.ru/share/share.min.js"));
     return this;
   };
-
-})(WebWidgetsScripts);
+})(Widgets.scripts());

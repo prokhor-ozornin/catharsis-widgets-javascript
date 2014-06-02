@@ -95,9 +95,9 @@
   };
 
   widgets._vkontakte = new VkontakteWidgetsFactory();
-  widgets.Vkontakte = function()
+
+  widgets.vkontakte = function()
   {
     return this._vkontakte;
   };
-
 })(Widgets);

@@ -83,9 +83,9 @@
     });
   };
 
-  factory.ProfileIcon = function()
+  factory.profileIcon = function()
   {
     return new SoundCloudProfileIconWidget();
   };
 }
-(Widgets.SoundCloud()));
+(Widgets.soundcloud()));

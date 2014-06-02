@@ -10,9 +10,9 @@
   };
 
   widgets._rutube = new RuTubeWidgetsFactory();
-  widgets.RuTube = function()
+
+  widgets.rutube = function()
   {
     return this._rutube;
   };
-
 })(Widgets);

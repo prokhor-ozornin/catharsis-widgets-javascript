@@ -33,9 +33,9 @@
     return this.javascriptLink("http://c.icq.com/siteim/icqbar/js/partners/initbar_" + (this.getLanguage() || "ru") + ".js") + (this.getAccount() ? this.javascriptInline("window.ICQ = {siteOwner:'" + this.getAccount() + "'};") : "");
   };
 
-  factory.Icq = function()
+  factory.icq = function()
   {
     return new MailRuIcqWidget();
   };
 }
-(Widgets.MailRu()));
+(Widgets.mailru()));

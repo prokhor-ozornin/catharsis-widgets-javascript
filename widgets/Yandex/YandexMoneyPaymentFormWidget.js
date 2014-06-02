@@ -153,9 +153,9 @@
     });
   };
 
-  factory.MoneyPaymentForm = function()
+  factory.moneyPaymentForm = function()
   {
     return new YandexMoneyPaymentFormWidget();
   };
 }
-(Widgets.Yandex()));
+(Widgets.yandex()));

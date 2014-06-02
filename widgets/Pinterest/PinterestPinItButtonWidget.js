@@ -176,9 +176,9 @@
     "<img src=\"http://assets.pinterest.com/images/pidgets/pinit_fg_" + this.getLanguage() + "_" + shape + "_" + this.getColor() + "_" + height + ".png\"/>");
   };
 
-  factory.PinItButton = function()
+  factory.pinItButton = function()
   {
     return new PinterestPinItButtonWidget();
   };
 }
-(Widgets.Pinterest()));
+(Widgets.pinterest()));

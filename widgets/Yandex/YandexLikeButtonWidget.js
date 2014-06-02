@@ -82,9 +82,9 @@
     + '</script>';
   };
 
-  factory.LikeButton = function()
+  factory.likeButton = function()
   {
     return new YandexLikeButtonWidget();
   };
 }
-(Widgets.Yandex()));
+(Widgets.yandex()));

@@ -30,8 +30,8 @@
            + "\";  fjs.parentNode.insertBefore(js, fjs); }}(document, 'script', 'facebook-jssdk'));</script>";
   };
 
-  factory.Initialize = function()
+  factory.initialize = function()
   {
     return new FacebookInitializationWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

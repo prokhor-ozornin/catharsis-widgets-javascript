@@ -69,9 +69,9 @@
     });
   };
 
-  factory.Video = function()
+  factory.video = function()
   {
     return new YandexVideoWidget();
   };
 }
-(Widgets.Yandex()));
+(Widgets.yandex()));

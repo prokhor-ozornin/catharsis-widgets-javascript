@@ -103,8 +103,8 @@
     });
   };
 
-  factory.FollowButton = function()
+  factory.followButton = function()
   {
     return new FacebookFollowButtonWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

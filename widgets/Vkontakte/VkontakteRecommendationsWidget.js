@@ -101,9 +101,9 @@
            + this.javascriptInline("VK.Widgets.Recommended(\"" + elementId + "\", " + JSON.stringify(config) + ");");
   };
 
-  factory.Recommendations = function()
+  factory.recommendations = function()
   {
     return new VkontakteRecommendationsWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

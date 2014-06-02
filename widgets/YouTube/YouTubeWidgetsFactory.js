@@ -10,9 +10,9 @@
   };
 
   widgets._youtube = new YouTubeWidgetsFactory();
-  widgets.YouTube = function()
+
+  widgets.youtube = function()
   {
     return this._youtube;
   };
-
 })(Widgets);

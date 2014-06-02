@@ -10,9 +10,9 @@
   };
 
   widgets._vimeo = new VimeoWidgetsFactory();
-  widgets.Vimeo = function()
+
+  widgets.vimeo = function()
   {
     return this._vimeo;
   };
-
 })(Widgets);

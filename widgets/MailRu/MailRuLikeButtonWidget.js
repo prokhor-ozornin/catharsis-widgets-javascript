@@ -128,9 +128,9 @@
     "Нравится");
   };
 
-  factory.LikeButton = function()
+  factory.likeButton = function()
   {
     return new MailRuLikeButtonWidget();
   };
 }
-(Widgets.MailRu()));
+(Widgets.mailru()));

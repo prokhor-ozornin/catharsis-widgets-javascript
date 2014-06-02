@@ -2,8 +2,8 @@ widgets/HtmlHelpers.js
 widgets/Widgets.js
 widgets/HtmlWidget.js
 widgets/VideoContentTypes.js
-widgets/WebWidgetsScripts.js
-widgets/WebWidgetsStyles.js
+widgets/WidgetsScripts.js
+widgets/WidgetsStyles.js
 
 widgets/Cackle/CackleWidgetsFactory.js
 widgets/Cackle/CackleScripts.js

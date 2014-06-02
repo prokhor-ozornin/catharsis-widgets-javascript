@@ -37,9 +37,9 @@
   };
 
   widgets._tumblr = new TumblrWidgetsFactory();
-  widgets.Tumblr = function()
+
+  widgets.tumblr = function()
   {
     return this._tumblr;
   };
-
 })(Widgets);

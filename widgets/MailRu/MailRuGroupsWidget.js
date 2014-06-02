@@ -128,9 +128,9 @@
     "Группы");
   };
 
-  factory.Groups = function()
+  factory.groups = function()
   {
     return new MailRuGroupsWidget();
   };
 }
-(Widgets.MailRu()));
+(Widgets.mailru()));

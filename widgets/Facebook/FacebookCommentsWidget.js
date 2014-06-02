@@ -86,8 +86,8 @@
     });
   };
 
-  factory.Comments = function()
+  factory.comments = function()
   {
     return new FacebookCommentsWidget();
   };
-})(Widgets.Facebook());
+})(Widgets.facebook());

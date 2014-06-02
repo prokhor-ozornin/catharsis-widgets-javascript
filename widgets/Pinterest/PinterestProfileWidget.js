@@ -82,9 +82,9 @@
     });
   };
 
-  factory.Profile = function()
+  factory.profile = function()
   {
     return new PinterestProfileWidget();
   };
 }
-(Widgets.Pinterest()));
+(Widgets.pinterest()));

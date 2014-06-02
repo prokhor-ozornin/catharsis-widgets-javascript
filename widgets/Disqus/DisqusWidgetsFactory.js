@@ -10,9 +10,9 @@
   };
 
   widgets._disqus = new DisqusWidgetsFactory();
-  widgets.Disqus = function()
+
+  widgets.disqus = function()
   {
     return this._disqus;
   };
-
 })(Widgets);

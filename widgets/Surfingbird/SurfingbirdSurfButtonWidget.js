@@ -106,9 +106,9 @@
     this.getLabel());
   };
 
-  factory.SurfButton = function()
+  factory.surfButton = function()
   {
     return new SurfingbirdSurfButtonWidget();
   };
 }
-(Widgets.Surfingbird()));
+(Widgets.surfingbird()));

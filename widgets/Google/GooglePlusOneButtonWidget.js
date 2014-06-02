@@ -97,9 +97,9 @@
     });
   };
 
-  factory.PlusOneButton = function()
+  factory.plusOneButton = function()
   {
     return new GooglePlusOneButtonWidget();
   };
 }
-(Widgets.Google()));
+(Widgets.google()));

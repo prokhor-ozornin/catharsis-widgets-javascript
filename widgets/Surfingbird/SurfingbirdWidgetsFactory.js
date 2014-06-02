@@ -24,9 +24,9 @@
   };
 
   widgets._surfingbird = new SurfingbirdWidgetsFactory();
-  widgets.Surfingbird = function()
+
+  widgets.surfingbird = function()
   {
     return this._surfingbird;
   };
-
 })(Widgets);

@@ -121,9 +121,9 @@
     return this.htmlTag("div", { "id" : elementId }) + this.javascriptInline("VK.Widgets.Group(\"" + elementId + "\", " + JSON.stringify(config) + ", \"" + this.getAccount() + "\");");
   };
 
-  factory.Community = function()
+  factory.community = function()
   {
     return new VkontakteCommunityWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

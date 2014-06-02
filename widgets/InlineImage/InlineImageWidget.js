@@ -41,7 +41,7 @@
     });
   };
 
-  widgets.InlineImage = function()
+  widgets.inlineImage = function()
   {
     return new InlineImageWidget();
   };

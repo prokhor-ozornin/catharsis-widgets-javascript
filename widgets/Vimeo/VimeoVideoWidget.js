@@ -82,9 +82,9 @@
     });
   };
 
-  factory.Video = function()
+  factory.video = function()
   {
     return new VimeoVideoWidget();
   };
 }
-(Widgets.Vimeo()));
+(Widgets.vimeo()));

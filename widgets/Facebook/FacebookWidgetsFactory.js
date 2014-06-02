@@ -43,9 +43,9 @@
   };
 
   widgets._facebook = new FacebookWidgetsFactory();
-  widgets.Facebook = function()
+
+  widgets.facebook = function()
   {
     return this._facebook;
   };
-
 })(Widgets);

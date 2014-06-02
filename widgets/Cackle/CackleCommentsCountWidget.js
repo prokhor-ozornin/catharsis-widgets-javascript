@@ -33,9 +33,9 @@
     return this.javascriptInline("cackle_widget = window.cackle_widget || []; cackle_widget.push(" + JSON.stringify(config) + ");");
   };
 
-  factory.CommentsCount = function()
+  factory.commentsCount = function()
   {
     return new CackleCommentsCountWidget();
   };
 }
-(Widgets.Cackle()));
+(Widgets.cackle()));

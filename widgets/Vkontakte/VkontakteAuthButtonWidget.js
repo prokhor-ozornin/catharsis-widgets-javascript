@@ -97,9 +97,9 @@
            + this.javascriptInline("VK.Widgets.Auth(\"" + elementId + "\", " + JSON.stringify(config) + ");");
   };
 
-  factory.AuthButton = function()
+  factory.authButton = function()
   {
     return new VkontakteAuthButtonWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

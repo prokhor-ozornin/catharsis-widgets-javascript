@@ -1,9 +1,8 @@
 (function(scripts)
 {
-  scripts.Disqus = function()
+  scripts.disqus = function()
   {
     window.document.write(this.javascriptLink(scripts.SCRIPTS_PATH + "/disqus.js"));
     return this;
   };
-
-})(WebWidgetsScripts);
+})(Widgets.scripts());

@@ -60,9 +60,9 @@
     return "<script type=\"text/javascript\">var idcomments_acct = \"" + this.getAccount() + "\"; var idcomments_post_id = \"" + this.getPostId() + "\"; var idcomments_post_url = \"" + this.getPostUrl() + "\"; var idcomments_post_title = \"" + this.getPostTitle() + "\";</script><span id=\"IDCommentsPostTitle\" style=\"display:none\"></span><script src=\"http://www.intensedebate.com/js/genericLinkWrapperV2.js\" type=\"text/javascript\"></script>";
   };
 
-  factory.Link = function()
+  factory.link = function()
   {
     return new IntenseDebateLinkWidget();
   };
 }
-(Widgets.IntenseDebate()));
+(Widgets.intensedebate()));

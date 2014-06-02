@@ -29,9 +29,9 @@
   };
 
   widgets._pinterest = new PinterestWidgetsFactory();
-  widgets.Pinterest = function()
+
+  widgets.pinterest = function()
   {
     return this._pinterest;
   };
-
 })(Widgets);

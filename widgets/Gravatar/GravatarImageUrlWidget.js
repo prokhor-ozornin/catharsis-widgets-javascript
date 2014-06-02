@@ -66,9 +66,9 @@
     return "http://www.gravatar.com/avatar/" + this.getHash() + (this.getExtension() ? "." + this.getExtension() : "") + (query ? "?" + query : "");
  };
 
-  factory.ImageUrl = function()
+  factory.imageUrl = function()
   {
     return new GravatarImageUrlWidget();
   };
 }
-(Widgets.Gravatar()));
+(Widgets.gravatar()));

@@ -81,9 +81,9 @@
     return "http://www.gravatar.com/" + this.getHash() + (this.getFormat() ? "." + this.getFormat() : "") + (query ? "?" + query : "");
   };
 
-  factory.ProfileUrl = function()
+  factory.profileUrl = function()
   {
     return new GravatarProfileUrlWidget();
   };
 }
-(Widgets.Gravatar()));
+(Widgets.gravatar()));

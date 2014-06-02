@@ -138,9 +138,9 @@
            + '<!-- /Yandex.Metrika counter -->'
   };
 
-  factory.Analytics = function()
+  factory.analytics = function()
   {
     return new YandexAnalyticsWidget();
   };
 }
-(Widgets.Yandex()));
+(Widgets.yandex()));

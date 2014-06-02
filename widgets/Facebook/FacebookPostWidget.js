@@ -43,8 +43,8 @@
     });
   };
 
-  factory.Post = function()
+  factory.post = function()
   {
     return new FacebookPostWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

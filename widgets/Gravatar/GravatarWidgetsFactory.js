@@ -29,9 +29,9 @@
   };
 
   widgets._gravatar = new GravatarWidgetsFactory();
-  widgets.Gravatar = function()
+
+  widgets.gravatar = function()
   {
     return this._gravatar;
   };
-
 })(Widgets);

@@ -24,15 +24,15 @@
     SIZE_64 : 64
   });
 
-  this.toString = function()
+  SoundCloudWidgetsFactory.prototype.toString = function()
   {
     return "SoundCloud Widgets Factory";
   };
 
   widgets._soundcloud = new SoundCloudWidgetsFactory();
-  widgets.SoundCloud = function()
+
+  widgets.soundcloud = function()
   {
     return this._soundcloud;
   };
-
 })(Widgets);

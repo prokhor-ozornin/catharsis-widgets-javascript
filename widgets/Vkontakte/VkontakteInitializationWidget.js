@@ -27,9 +27,9 @@
     return this.javascriptInline("VK.init({apiId:" + this.getApiId() + ", onlyWidgets:true});");
   };
 
-  factory.Initialize = function()
+  factory.initialize = function()
   {
     return new VkontakteInitializationWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

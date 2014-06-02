@@ -52,9 +52,9 @@
     });
   };
 
-  factory.SharePanel = function()
+  factory.sharePanel = function()
   {
     return new YandexSharePanelWidget();
   };
 }
-(Widgets.Yandex()));
+(Widgets.yandex()));

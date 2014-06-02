@@ -74,9 +74,9 @@
            + this.javascriptInline("VK.Widgets.Subscribe(\"" + elementId + "\", " + JSON.stringify(config) + ", \"" + this.getAccount() + "\");");
   };
 
-  factory.Subscription = function()
+  factory.subscription = function()
   {
     return new VkontakteSubscriptionWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

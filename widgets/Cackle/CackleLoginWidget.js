@@ -34,9 +34,9 @@
            + this.javascriptInline("cackle_widget = window.cackle_widget || []; cackle_widget.push(" + JSON.stringify(config) + ";");
   };
 
-  factory.Login = function()
+  factory.login = function()
   {
     return new CackleLoginWidget();
   };
 }
-(Widgets.Cackle()));
+(Widgets.cackle()));

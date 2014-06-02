@@ -58,8 +58,8 @@
     });
   };
 
-  factory.Video = function()
+  factory.video = function()
   {
     return new FacebookVideoWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

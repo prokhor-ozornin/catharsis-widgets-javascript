@@ -41,9 +41,9 @@
   };
 
   widgets._twitter = new TwitterWidgetsFactory();
-  widgets.Twitter = function()
+
+  widgets.twitter = function()
   {
     return this._twitter;
   };
-
 })(Widgets);

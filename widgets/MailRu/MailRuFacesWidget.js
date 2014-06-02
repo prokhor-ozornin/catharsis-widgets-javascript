@@ -163,9 +163,9 @@
     "Друзья");
   };
 
-  factory.Faces = function()
+  factory.faces = function()
   {
     return new MailRuFacesWidget();
   };
 }
-(Widgets.MailRu()));
+(Widgets.mailru()));

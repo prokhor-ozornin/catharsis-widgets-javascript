@@ -31,9 +31,9 @@
   };
 
   widgets._google = new GoogleWidgetsFactory();
-  widgets.Google = function()
+
+  widgets.google = function()
   {
     return this._google;
   };
-
 })(Widgets);

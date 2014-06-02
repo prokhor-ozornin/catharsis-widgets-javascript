@@ -59,9 +59,9 @@
     });
   };
 
-  factory.Video = function()
+  factory.video = function()
   {
     return new RuTubeVideoWidget();
   };
 }
-(Widgets.RuTube()));
+(Widgets.rutube()));

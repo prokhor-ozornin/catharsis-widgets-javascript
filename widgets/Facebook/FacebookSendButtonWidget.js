@@ -86,8 +86,8 @@
      });
   };
 
-  facebook.SendButton = function()
+  facebook.sendButton = function()
   {
     return new FacebookSendButtonWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

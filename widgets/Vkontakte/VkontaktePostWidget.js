@@ -79,9 +79,9 @@
            + this.javascriptInline("(function() { window.VK && VK.Widgets && VK.Widgets.Post && VK.Widgets.Post(\"" + elementId + "\", " + this.getOwner() + " ," + this.getId() + ", \"" + this.getHash() + "\", " + JSON.stringify(config) + ") || setTimeout(arguments.callee, 50);  }());");
   };
 
-  factory.Post = function()
+  factory.post = function()
   {
     return new VkontaktePostWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

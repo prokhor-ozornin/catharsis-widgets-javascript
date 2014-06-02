@@ -110,8 +110,8 @@
     });
   };
 
-  factory.LikeButton = function()
+  factory.likeButton = function()
   {
     return new FacebookLikeButtonWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

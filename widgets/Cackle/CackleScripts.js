@@ -1,9 +1,8 @@
 (function(scripts)
 {
-  scripts.Cackle = function()
+  scripts.cackle = function()
   {
     window.document.write(this.javascriptLink(scripts.SCRIPTS_PATH + "/cackle.js"));
     return this;
   };
-
-})(WebWidgetsScripts);
+})(Widgets.scripts());

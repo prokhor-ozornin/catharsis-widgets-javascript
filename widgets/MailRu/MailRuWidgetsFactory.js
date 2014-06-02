@@ -49,15 +49,15 @@
     ODNOKLASSNIKI : "ok"
   });
 
-  this.toString = function()
+  MailRuWidgetsFactory.prototype.toString = function()
   {
     return "MailRu Widgets Factory";
   };
 
   widgets._mailru = new MailRuWidgetsFactory();
-  widgets.MailRu = function()
+
+  widgets.mailru = function()
   {
     return this._mailru;
   };
-
 })(Widgets);

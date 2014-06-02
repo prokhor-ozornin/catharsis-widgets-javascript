@@ -217,9 +217,9 @@
     });
   };
 
-  factory.MoneyDonateForm = function()
+  factory.moneyDonateForm = function()
   {
     return new YandexMoneyDonateFormWidget();
   };
 }
-(Widgets.Yandex()));
+(Widgets.yandex()));

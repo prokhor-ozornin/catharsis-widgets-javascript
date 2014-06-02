@@ -10,9 +10,9 @@
   };
 
   widgets._intensedebate = new IntenseDebateWidgetsFactory();
-  widgets.IntenseDebate = function()
+
+  widgets.intensedebate = function()
   {
     return this._intensedebate;
   };
-
 })(Widgets);

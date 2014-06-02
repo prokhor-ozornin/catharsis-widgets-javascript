@@ -136,9 +136,9 @@
     return this.htmlTag("div", { "id" : elementId }) + this.javascriptInline("VK.Widgets.Like(\"" + elementId + "\", " + JSON.stringify(config) + ");");
   };
 
-  factory.LikeButton = function()
+  factory.likeButton = function()
   {
     return new VkontakteLikeButtonWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

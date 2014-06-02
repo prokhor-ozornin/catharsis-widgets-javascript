@@ -1,9 +1,8 @@
 (function(scripts)
 {
-  scripts.Pinterest = function()
+  scripts.pinterest = function()
   {
     window.document.write(this.javascriptLink("http://assets.pinterest.com/js/pinit.js"));
     return this;
   };
-
-})(WebWidgetsScripts);
+})(Widgets.scripts());

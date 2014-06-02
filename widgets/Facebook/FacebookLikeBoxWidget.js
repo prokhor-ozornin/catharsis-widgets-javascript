@@ -127,8 +127,8 @@
     });
   };
 
-  factory.LikeBox = function()
+  factory.likeBox = function()
   {
     return new FacebookLikeBoxWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

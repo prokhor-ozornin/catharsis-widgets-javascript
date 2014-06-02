@@ -1,9 +1,8 @@
 (function(scripts)
 {
-  scripts.Yandex = function()
+  scripts.yandex = function()
   {
     window.document.write(this.javascriptLink("http://yandex.st/share/share.js"));
     return this;
   };
-
-})(WebWidgetsScripts);
+})(Widgets.scripts());

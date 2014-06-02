@@ -77,9 +77,9 @@
   };
 
   widgets._yandex = new YandexWidgetsFactory();
-  widgets.Yandex = function()
+
+  widgets.yandex = function()
   {
     return this._yandex;
   };
-
 })(Widgets);

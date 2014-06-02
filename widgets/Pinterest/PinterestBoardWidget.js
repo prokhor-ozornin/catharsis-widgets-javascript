@@ -93,9 +93,9 @@
     });
   };
 
-  factory.Board = function()
+  factory.board = function()
   {
     return new PinterestBoardWidget();
   };
 }
-(Widgets.Pinterest()));
+(Widgets.pinterest()));

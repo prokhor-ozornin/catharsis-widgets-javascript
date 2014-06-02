@@ -82,9 +82,9 @@
     });
   };
 
-  factory.Video = function()
+  factory.video = function()
   {
     return new YouTubeVideoWidget();
   };
 }
-(Widgets.YouTube()));
+(Widgets.youtube()));

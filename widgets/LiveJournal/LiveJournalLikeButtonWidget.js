@@ -9,9 +9,9 @@
     return "<lj-like buttons=\"repost\"/>";
   };
 
-  factory.LikeButton = function()
+  factory.likeButton = function()
   {
     return new LiveJournalLikeButtonWidget();
   };
 }
-(Widgets.LiveJournal()));
+(Widgets.livejournal()));

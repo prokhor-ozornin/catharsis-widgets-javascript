@@ -99,8 +99,8 @@
     });
   };
 
-  factory.Facepile = function()
+  factory.facepile = function()
   {
     return new FacebookFacepileWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

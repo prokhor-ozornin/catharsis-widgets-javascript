@@ -1,9 +1,8 @@
 (function(scripts)
 {
-  scripts.Vkontakte = function()
+  scripts.vkontakte = function()
   {
     window.document.write(this.javascriptLink("http://vk.com/js/api/openapi.js"));
     return this;
   };
-
-})(WebWidgetsScripts);
+})(Widgets.scripts());

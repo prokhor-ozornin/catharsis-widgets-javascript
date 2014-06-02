@@ -119,9 +119,9 @@
     return this.htmlTag("div", { "id" : elementId }) + this.javascriptInline("VK.Widgets.Comments(\"" + elementId + "\", " + JSON.stringify(config) + ");");
   };
 
-  factory.Comments = function()
+  factory.comments = function()
   {
     return new VkontakteCommentsWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

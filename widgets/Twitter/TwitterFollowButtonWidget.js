@@ -115,9 +115,9 @@
     });
   };
 
-  factory.FollowButton = function()
+  factory.followButton = function()
   {
     return new TwitterFollowButtonWidget();
   };
 }
-(Widgets.Twitter()));
+(Widgets.twitter()));

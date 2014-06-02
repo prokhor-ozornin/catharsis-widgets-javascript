@@ -135,8 +135,8 @@
     });
   };
 
-  factory.RecommendationsFeed = function()
+  factory.recommendationsFeed = function()
   {
     return new FacebookRecommendationsFeedWidget();
   };
-}(Widgets.Facebook()));
+}(Widgets.facebook()));

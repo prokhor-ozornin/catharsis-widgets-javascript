@@ -137,9 +137,9 @@
     });
   };
 
-  factory.TweetButton = function()
+  factory.tweetButton = function()
   {
     return new TwitterTweetButtonWidget();
   };
 }
-(Widgets.Twitter()));
+(Widgets.twitter()));

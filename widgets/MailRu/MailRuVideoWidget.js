@@ -58,9 +58,9 @@
     });
   };
 
-  factory.Video = function()
+  factory.video = function()
   {
     return new MailRuVideoWidget();
   };
 }
-(Widgets.MailRu()));
+(Widgets.mailru()));

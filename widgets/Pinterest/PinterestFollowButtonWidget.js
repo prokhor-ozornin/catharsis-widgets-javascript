@@ -44,9 +44,9 @@
     this.getLabel());
   };
 
-  factory.FollowButton = function()
+  factory.followButton = function()
   {
     return new PinterestFollowButtonWidget();
   };
 }
-(Widgets.Pinterest()));
+(Widgets.pinterest()));

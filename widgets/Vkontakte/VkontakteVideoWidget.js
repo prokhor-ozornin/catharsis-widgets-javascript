@@ -91,9 +91,9 @@
     });
   };
 
-  factory.Video = function()
+  factory.video = function()
   {
     return new VkontakteVideoWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

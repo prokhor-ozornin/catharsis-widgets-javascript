@@ -10,9 +10,9 @@
   };
 
   widgets._cackle = new CackleWidgetsFactory();
-  widgets.Cackle = function()
+
+  widgets.cackle = function()
   {
     return this._cackle;
   };
-
 })(Widgets);

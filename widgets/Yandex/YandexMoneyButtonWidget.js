@@ -185,9 +185,9 @@
     });
   };
 
-  factory.MoneyButton = function()
+  factory.moneyButton = function()
   {
     return new YandexMoneyButtonWidget();
   };
 }
-(Widgets.Yandex()));
+(Widgets.yandex()));

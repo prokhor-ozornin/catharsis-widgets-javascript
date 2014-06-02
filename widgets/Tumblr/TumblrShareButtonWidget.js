@@ -64,9 +64,9 @@
     "Share on Tumblr");
   };
 
-  factory.ShareButton = function()
+  factory.shareButton = function()
   {
     return new TumblrShareButtonWidget();
   };
 }
-(Widgets.Tumblr()));
+(Widgets.tumblr()));

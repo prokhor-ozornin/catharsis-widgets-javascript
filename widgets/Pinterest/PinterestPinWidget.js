@@ -31,9 +31,9 @@
     });
   };
 
-  factory.Pin = function()
+  factory.pin = function()
   {
     return new PinterestPinWidget();
   };
 }
-(Widgets.Pinterest()));
+(Widgets.pinterest()));

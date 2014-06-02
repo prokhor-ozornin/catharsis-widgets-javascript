@@ -69,9 +69,9 @@
            + this.javascriptInline("VK.Widgets.Poll(\"" + elementId + "\", " + JSON.stringify(config) + ", \"" + this.getId() + "\");");
   };
 
-  factory.Poll = function()
+  factory.poll = function()
   {
     return new VkontaktePollWidget();
   };
 }
-(Widgets.Vkontakte()));
+(Widgets.vkontakte()));

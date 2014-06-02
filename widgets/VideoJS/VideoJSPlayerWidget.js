@@ -81,9 +81,9 @@
     videoSources.join() + this.getExtra());
   };
 
-  factory.Player = function()
+  factory.player = function()
   {
     return new VideoJSPlayerWidget();
   };
 }
-(Widgets.VideoJS()));
+(Widgets.videojs()));

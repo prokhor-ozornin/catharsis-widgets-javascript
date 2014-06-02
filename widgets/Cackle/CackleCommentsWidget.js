@@ -35,9 +35,9 @@
            + "<a id=\"mc-link\" href=\"http://cackle.me\">Социальные комментарии <b style=\"color:#4FA3DA\">Cackl</b><b style=\"color:#F65077\">e</b></a>";
   };
 
-  factory.Comments = function()
+  factory.comments = function()
   {
     return new CackleCommentsWidget();
   };
 }
-(Widgets.Cackle()));
+(Widgets.cackle()));

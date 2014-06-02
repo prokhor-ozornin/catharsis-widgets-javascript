@@ -10,9 +10,9 @@
   };
 
   widgets._livejournal = new LiveJournalWidgetsFactory();
-  widgets.LiveJournal = function()
+
+  widgets.livejournal = function()
   {
     return this._livejournal;
   };
-
 })(Widgets);

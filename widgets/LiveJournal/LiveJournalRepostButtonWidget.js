@@ -37,9 +37,9 @@
     this.getText());
   };
 
-  factory.RepostButton = function()
+  factory.repostButton = function()
   {
     return new LiveJournalRepostButtonWidget();
   };
 }
-(Widgets.LiveJournal()));
+(Widgets.livejournal()));

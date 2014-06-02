@@ -73,9 +73,9 @@
     });
   };
 
-  factory.FollowButton = function()
+  factory.followButton = function()
   {
     return new TumblrFollowButtonWidget();
   };
 }
-(Widgets.Tumblr()));
+(Widgets.tumblr()));

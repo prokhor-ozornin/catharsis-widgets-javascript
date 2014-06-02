@@ -147,8 +147,8 @@
     });
   };
 
-  factory.ActivityFeed = function()
+  factory.activityFeed = function()
   {
     return new FacebookActivityFeedWidget();
   };
-})(Widgets.Facebook());
+})(Widgets.facebook());
