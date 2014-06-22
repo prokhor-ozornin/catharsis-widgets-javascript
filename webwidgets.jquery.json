@@ -3,7 +3,7 @@
   "title": "Catharsis Social Web Widgets",
   "description": "JavaScript library, which provides useful social media widgets to include on web pages of your site",
   "keywords": ["asp.net", "browser", "cackle", "disqus", "facebook", "google", "gravatar", "html", "intensedebate", "livejournal", "mailru", "mvc", "pinterest", "rutube", "soundcloud", "surfingbird", "tumblr", "twitter", "vimeo", "vkontakte", "web", "widgets", "yandex", "youtube"],
-  "version": "2.8.0",
+  "version": "2.8.1",
   "author": { "name": "Prokhor Ozornin", "email" : "prokhor.ozornin@yandex.ru" },
   "licenses": [ { "type": "LGPLv3", "url": "http://opensource.org/licenses/LGPL-3.0" } ],
   "bugs": "https://github.com/prokhor-ozornin/Catharsis.JS.Web.Widgets/issues",
